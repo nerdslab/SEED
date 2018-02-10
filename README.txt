@@ -4,8 +4,8 @@ Read Me !!
 - Download and install OMPBox from Rob Rubinstein:
   http://www.cs.technion.ac.il/~ronrubin/Software/ompbox10.zip
 
-- Download and install oASIS solver:
-  https://bitbucket.org/rjp2/oasis/
+- Install oASIS solver:
+  https://github.com/nerdslab/oasis
 
 - Add all folders in oASIS, OMPbox, and SEED to your path
 
