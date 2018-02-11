@@ -79,7 +79,7 @@ G = D'*D;
 if strcmp(ompmethod,'batch')
     V = omp2(DtX,XtX,G,epsilon,'maxatoms',kmax);
 else
-    V = OMP(X,D,kmax,epsilon);
+    [~,~,V] = OMP(X,D,kmax,epsilon);
 end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
